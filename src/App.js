@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  const [time, setTime] = useState(60);
+  const [time, setTime] = useState(0);
   const [IntervalTracker, setIntervalTracker] = useState(-1);
  
 
